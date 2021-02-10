@@ -1,7 +1,5 @@
-import {
-  RichPresentationModel,
-  useReactRichPresentationModelFactory,
-} from "../index";
+import { useReactRichPresentationModelFactory } from "../hooks";
+import { RichPresentationModel } from "../rich-presentation-model";
 import { RichPresentationModelConstructorOptions } from "../interfaces";
 import { act, renderHook } from "@testing-library/react-hooks";
 
